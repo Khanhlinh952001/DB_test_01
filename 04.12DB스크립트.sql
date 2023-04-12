@@ -93,3 +93,7 @@ INSERT INTO 주문 VALUES ('o10', 'carrot', 'p03', 20, '경기도 안양시', to
 
 SELECT * FROM 고객;
 
+SELECT * FROM 고객 WHERE 등급*"gold";
+
+SELECT * FROM 고객 WHERE 고객이름 LIKE "%오%";
+
